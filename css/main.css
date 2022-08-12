@@ -353,6 +353,12 @@ main {
     color: #fff;
     border: 1.5px solid #FFFFFF;
   }
+  .nav-block .site-btn--active:hover {
+    background-color: #fff;
+    color: #2C2830;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
   .nav-open {
     display: block;
     width: 32px;

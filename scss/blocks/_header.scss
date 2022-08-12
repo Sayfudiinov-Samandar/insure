@@ -136,6 +136,11 @@
         line-height: 40px;
         color: #fff;
         border: 1.5px solid #FFFFFF;
+            &:hover{
+                background-color: #fff;
+                color: #2C2830;
+                transition: all 0.3s ease;
+        }
     }
     
     
