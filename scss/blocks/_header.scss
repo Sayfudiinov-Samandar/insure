@@ -30,6 +30,10 @@
     letter-spacing: 1.5px;
     color: #837D88;    
     text-decoration: none;
+
+    &:hover{
+        color: #2C2830;
+    }
 }
 
 .site-btn{
@@ -69,14 +73,27 @@
     .site-nav{
         display: none;
     }
-    
+
+
     .header-box{
         justify-content: space-between;
     }
-
-    .site-nav__list{
-
+    .nav__list{
         position: absolute;
+        top: 0;
+        bottom: 0;
+        
+    }
+
+    .site-header{
+        position: fixed;
+        z-index: 5;
+        width: 100%;
+        background-color: #fff;
+    }
+    .site-nav__list{
+        overflow-y: hidden;
+        position: fixed;
         flex-direction: column;
         z-index: 5;
         background-color: #2C2830;
@@ -84,11 +101,11 @@
         background-size: 1000px;
         background-repeat: no-repeat;
         background-position: calc(50% + 235px) 370px;
+        height: 100%;
         gap: 24px;
         top: 70px;
         left: 0;
         right: 0;
-        height: 100ch;
         padding: 40px 24px;
     }
 
